@@ -6,7 +6,7 @@ const Footer = () => {
         <footer className="footer">
             <p className="footer-text">Made with React.js</p>
             <img src='./assets/react.svg' className='footer-icon' />
-            <a href="https://github.com/asrato" target={'_blank'} className='footer-link'>
+            <a href="https://github.com/asrato/github-users" target={'_blank'} className='footer-link'>
                 <img src='./assets/github.svg' className='footer-icon' />
             </a>
             <p className="footer-text">by André da Silva Rato</p>
