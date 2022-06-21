@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.home {
+  width: 100%;
+  height: 100%;
+  background-color: #111111;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  font-family: "Montserrat", sans-serif;
+  overflow: hidden auto;
+}
+
+.home-spacer {
+  flex-grow: 1;
+}
+
+.home-search-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0 0 0;
+}
+
+.home-content {
+  margin-top: 100px;
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 50px;
+}
+
+.home-left-container {
+  width: 30%;
+  height: 100%;
+  max-width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+}
+
+.home-picture-container {
+  all: unset;
+  width: 100%;
+}
+
+.home-picture {
+  width: calc(100% - 6px);
+  border-radius: 50%;
+  border: 3px solid #ffffff;
+  transform: scale(1, 1);
+  transition: transform 0.5s;
+}
+
+.home-picture:hover {
+  cursor: pointer;
+  border: 3px solid #bb2520;
+  transform: scale(1.075, 1.075);
+  transition: transform 0.2s;
+}
+
+.home-name {
+  margin-top: 10px;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.home-username,
+.home-followers,
+.home-following {
+  text-align: center;
+}
+
+.home-number-of-repos{
+  text-align: center;
+  margin-top: 15px;
+}
+
+.home-repositories-container {
+  width: calc(70% - 79px);
+  min-width: calc(100% - 225px);
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px 0 20px 25px;
+  border-left: solid 1px #ffffff;
+  margin-left: 25px;
+}
+
+.home-user-not-found {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}

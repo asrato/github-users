@@ -1,0 +1,85 @@
+.repo-card {
+  all: unset;
+  width: calc(100% - 42px);
+  background-color: transparent;
+  cursor: pointer;
+  padding: 10px 20px;
+  border: 1px #ffffff solid;
+  border-radius: 10px;
+  font-size: 14px;
+  transform: scale(1, 1);
+  transition: transform 0.2s;
+}
+
+.repo-card:hover {
+  background-color: #bb252009;
+  border-color: #bb2520;
+  transform: scale(1.025, 1.025);
+  transition: transform 0.2s;
+}
+
+.repo-card-title {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.repo-card-subtitle {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.repo-card-name {
+  line-height: 18px; /* fallback */
+  max-height: 36px; /* fallback */
+}
+
+.repo-card-language {
+  color: #bb2520;
+  line-height: 18px; /* fallback */
+  max-height: 36px; /* fallback */
+}
+
+.repo-card-description {
+  font-weight: 300;
+  line-height: 14px; /* fallback */
+  max-height: 28px; /* fallback */
+  font-size: 14px;
+}
+
+.repo-card-description,
+.repo-card-name {
+  word-wrap: normal;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1; /* number of lines to show */
+  -webkit-box-orient: vertical;
+}
+
+.repo-card-stars-container {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.repo-card:hover .repo-card-stars-container {
+    color: #bb2520;
+}
+
+.repo-card-stars-number {
+    font-weight: bold;
+}
+
+.repo-card-stars-icon {
+    margin-top: -3px;
+    margin-left: 3px;
+}
