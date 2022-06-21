@@ -1,5 +1,11 @@
 # github-users
 
+<div align="center">
+
+[![License](https://img.shields.io/badge/license-MIT-blue)](License.md)
+
+</div>
+
 ## Demo
 
 This application was published and can be accessed [here](https://asrato-github-users.web.app/).
@@ -9,6 +15,8 @@ This application was published and can be accessed [here](https://asrato-github-
   - [About the project](#about-the-project)
   - [Technologies](#technologies)
   - [Setup](#setup)
+  - [Status](#status)
+  - [License](#license)
 
 ## About the project
 
@@ -16,6 +24,7 @@ A React application used to display GitHub users information. It has support for
 
 ## Technologies
 This projects uses:
+* `npm` as package manager
 * `react` as component library
 * `css` as component stylizer
 * `webpack` as module bundler
