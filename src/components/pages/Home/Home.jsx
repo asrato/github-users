@@ -58,23 +58,24 @@ const Home = () => {
     return (
         <div className="home">
             <div className="home-search-container">
-                <Search changer={onSearch} />
+                <Search changer={onSearch} defaultValue={"asrato"} />
             </div>
             <div className="home-content">
                 {isLoading ? <Loading />
                     :
                     <>
                         {userFound ?
-                            <> <div className="home-left-container">
-                                <a href={`https://github.com/${username}`} target={'_blank'} className="home-picture-container">
-                                    <img className='home-picture' alt='user-profile-picture' src={`https://avatars.githubusercontent.com/${username}`} />
-                                </a>
-                                <p className="home-name">{userInfo.name}</p>
-                                <p className="home-username">({username})</p>
-                                <p className="home-number-of-repos">{userInfo.public_repos} public repositories</p>
-                                <p className="home-followers">{userInfo.followers} followers</p>
-                                <p className="home-following">{userInfo.following} following</p>
-                            </div>
+                            <>
+                                <div className="home-left-container">
+                                    <a href={`https://github.com/${username}`} target={'_blank'} className="home-picture-container">
+                                        <img className='home-picture' alt='user-profile-picture' src={`https://avatars.githubusercontent.com/${username}`} />
+                                    </a>
+                                    <p className="home-name">{userInfo.name}</p>
+                                    <p className="home-username">({username})</p>
+                                    <p className="home-number-of-repos">{userInfo.public_repos} public repositories</p>
+                                    <p className="home-followers">{userInfo.followers} followers</p>
+                                    <p className="home-following">{userInfo.following} following</p>
+                                </div>
                                 <div className="home-repositories-container">
                                     {repos}
                                 </div>

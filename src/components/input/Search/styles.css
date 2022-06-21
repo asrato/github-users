@@ -29,3 +29,9 @@
     cursor: pointer;
     filter: brightness(0) saturate(100%) invert(15%) sepia(93%) saturate(2420%) hue-rotate(347deg) brightness(108%) contrast(96%);
 }
+
+@media screen and (max-width: 950px) {
+    .search {
+        width: calc(80% - 62px);
+    }
+}
