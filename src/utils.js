@@ -22,8 +22,6 @@ export const getUserInfo = async(username) => {
     try {
         const userInfo = await axios.get(`https://api.github.com/users/${username}`);
 
-        console.log(userInfo.data);
-
         return userInfo.data;
     } catch (error) {
         return null;
