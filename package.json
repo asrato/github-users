@@ -1,5 +1,5 @@
 {
-  "name": "react18-boilerplate",
+  "name": "asrato-website",
   "scripts": {
     "build": "webpack",
     "dev": "webpack serve --open"
