@@ -30,6 +30,7 @@ This projects uses:
 * `webpack` as module bundler
 * `babel` as JavaScript transpiler
 * `firebase` as hosting service
+* `GitHub API` as data provider
 
 ## Setup
 
