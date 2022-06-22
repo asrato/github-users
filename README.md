@@ -8,7 +8,7 @@
 
 ## Demo
 
-This application was published and can be accessed [here](https://asrato-github-users.web.app/).
+If you want to take a look in what was developed and how the application works click [here](https://asrato-github-users.web.app/).
 
 ## Table of contents
 
@@ -20,7 +20,8 @@ This application was published and can be accessed [here](https://asrato-github-
 
 ## About the project
 
-A React application used to display GitHub users information. It has support for computers and mobile devices, having a responsive behavior in all the app.
+A React application used to display GitHub users information. It has support for computers and mobile devices, having a responsive behavior in all the app.  
+Its purpose is to, not only train my React skills, but also to use the GitHub's API.
 
 ## Technologies
 This projects uses:
